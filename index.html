@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Restaurent- Foods</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header class="shadow-md p-3 left-0 right-0 top-0 z-50 bg-white fixed">
+        <nav class="w-[90%] mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li>
+                                <a>Menu</a>
+                                <ul class="p-2">
+                                    <li><a>New Item</a></li>
+                                    <li><a>upcomming items </a></li>
+                                </ul>
+                            </li>
+                            <li><a>About</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-2xl font-bold"><img src="./Image/logo 1.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <details>
+                                <summary>Menu</summary>
+                                <ul class="p-2">
+                                    <li><a>Item-1</a></li>
+                                    <li><a>Item-2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <button class="btn btn-outline btn-primary ">Book a table</button>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- hero section  -->
+        <section class="hero">
+            <div class="hero bg-base-200 min-h-screen mt-20">
+                <div class="hero-content flex-col lg:flex-row-reverse  md:gap-60">
+                    <img src="./Image/Mask group.png" class="max-w-sm rounded-lg  " />
+                    <div class="max-w-md space-y-5">
+                        <h1 class="text-3xl  md:text-5xl font-bold mt-5">We provide the
+                            <span class="text-purple-800">Best Food</span> for you
+                        </h1>
+                        <p class="py-6">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button class="btn btn-primary rounded-tl-2xl rounded-br-2xl ">Menu</button> &nbsp;
+                        <button class="btn btn-primary rounded-tl-2xl rounded-br-2xl">Book a table </button>
+                        <div class="flex gap-5 w-10 mt-5">
+                            <img src="./Image/hero-logo (3).png" alt="" class="hover:border-b-2">
+                            <img src="./Image/hero-logo (4).png" alt="" class="hover:border-b-2">
+                            <img src="./Image/hero-logo (5).png" alt="" class="hover:border-b-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- items released  -->
+        <div class="mt-5">
+            <h1 class="text-center text-4xl font-bold p-3">Our <div class="tooltip tooltip-open"
+                    data-tip="New items just released!">
+                    <span class="">new</span>
+                </div>
+              just   Items Released - </h1>
+        </div>
+        <section class="mx-auto grid grid-cols-1 md:grid-cols-3 mt-5 place-items-center gap-5">
+            <!-- card 1  -->
+            <div class="card card-side bg-base-100 shadow-sm  w-[400px] p-8">
+                <figure>
+                    <img src="./Image/items (1).png" alt="item" class="w-40 p-5" />
+                </figure>
+                <div class="card-body w-[280px]">
+                    <h2 class="card-title">New items released!</h2>
+                    <p>benefits</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">See more</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 2  -->
+            <div class="card card-side bg-base-100 shadow-sm  w-[400px] p-8">
+                <figure>
+                    <img src="./Image/items (2).png" alt="item" class="w-40 p-5" />
+                </figure>
+                <div class="card-body w-[280px]">
+                    <h2 class="card-title">New items released!</h2>
+                    <p>benefits</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">See more</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3  -->
+            <div class="card card-side bg-base-100 shadow-sm  w-[400px] p-8">
+                <figure>
+                    <img src="./Image/items (3).png" alt="item" class="w-40 p-5" />
+                </figure>
+                <div class="card-body w-[280px]">
+                    <h2 class="card-title">New items released!</h2>
+                    <p>benefits</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">See more</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4  -->
+            <div class="card card-side bg-base-100 shadow-sm  w-[400px] p-8">
+                <figure>
+                    <img src="./Image/items (4).png" alt="item" class="w-40 p-5" />
+                </figure>
+                <div class="card-body w-[280px]">
+                    <h2 class="card-title">New items released!</h2>
+                    <p>benefits</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">See more</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5  -->
+            <div class="card card-side bg-base-100 shadow-sm  w-[400px] p-8">
+                <figure>
+                    <img src="./Image/items (5).png" alt="item" class="w-40 p-5" />
+                </figure>
+                <div class="card-body w-[280px]">
+                    <h2 class="card-title">New items released!</h2>
+                    <p>benefits</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">See more</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+        <!-- welcome section  -->
+        <section class="hero">
+            <div class="hero bg-base-200 min-h-screen space-y-5">
+                <div class="hero-content flex-col lg:flex-row-reverse  md:gap-60">
+                    <div class="max-w-md">
+                        <h1 class="text-3xl md:text-4xl font-bold">Welcome Our <span
+                                class="text-purple-700">Restaurant</span></h1>
+                        <p class="py-6">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <button class="btn btn-primary rounded-tl-2xl rounded-br-2xl ">Menu</button> &nbsp;
+                        <button class="btn btn-primary rounded-tl-2xl rounded-br-2xl">Book a table </button>
+                    </div>
+                    <img src="./Image/resturent banner.jpg" class="w-[60%] rounded-lg  border-2" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Chef section -->
+        <section class="w-8/12 mx-auto flex flex-col md:flex-row items-center justify-between gap-8 py-8 md:py-10">
+            <div class="w-8/12 mx-auto mt-20 mb-10">
+                <h2 class="text-5xl font-semibold">Our Expects Chef</h2>
+                <hr class="w-16 border-2 border-purple-700 mt-4 ">
+                <p class="text-gray-500 text-sm mt-8">
+                    Lorem ipsum dolor sit amet, consectetur <br />
+                    adipiscing elit, sed do eiusmod tempor incididunt <br />
+                    ut labore et dolore magna aliqua.
+                </p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+                    <div class="flex items-center gap-4">
+                        <p class="text-gray-500 text-sm">
+                            ✅ Lorem ipsum dolor sit amet, <br />
+                            consectetur
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <p class="text-gray-500 text-sm">
+                            ✅ Lorem ipsum dolor sit amet, <br />
+                            consectetur
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <p class="text-gray-500 text-sm">
+                            ✅ Lorem ipsum dolor sit amet, <br />
+                            consectetur
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <p class="text-gray-500 text-sm">
+                            ✅ Lorem ipsum dolor sit amet, <br />
+                            consectetur
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <p class="text-gray-500 text-sm">
+                            ✅ Lorem ipsum dolor sit amet, <br />
+                            consectetur
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <p class="text-gray-500 text-sm">
+                            ✅ Lorem ipsum dolor sit amet, <br />
+                            consectetur
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./Image/chief.png" alt="" class="rounded-full" />
+            </div>
+        </section>
+
+
+        <hr class="w-[80%] mx-auto border-2 border-gray-300">
+
+
+        <section class="mt-30">
+            <h1 class="text-4xl font-bold  text-center">Our Happy Customers</h1>
+            <p class="text-center mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod
+                tempor incididunt </p>
+            <div class="grid grid-flow-col justify-center  items-center">
+                <div class="max-w-xl w-full px-6 py-12">
+                    <!-- Testimonial Card -->
+                    <div class="relative bg-white shadow-xl p-8 text-center mt-10 rounded-tl-4xl rounded-br-4xl ">
+
+                        <!-- Profile Image -->
+                        <div class="absolute -top-12 left-1/2 transform -translate-x-1/2">
+                            <img src="./Image/customar.jpg" alt="profile"
+                                class="w-30 h-30 rounded-full border-4 border-red-700 shadow-md">
+                        </div>
+
+                        <!-- Stars -->
+                        <div class="mt-10 flex justify-center text-yellow-400 text-lg">
+                            ★ ★ ★ ★ ★
+                        </div>
+
+                        <!-- Testimonial Text -->
+                        <p class="text-gray-600 mt-4">
+                            Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices
+                            neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum
+                            sagittis ac eu aliquam quis.
+                        </p>
+
+                        <!-- Name & Role -->
+                        <h3 class="mt-6 font-bold text-gray-900">Ama Ampomah</h3>
+                        <p class="text-gray-500 text-sm">CEO & Founder Inc</p>
+                    </div>
+
+                    <!-- Dots Navigation -->
+                    <div class="flex justify-center mt-6 space-x-2">
+                        <span class="w-2.5 h-2.5 bg-orange-500 rounded-full"></span>
+                        <span class="w-2.5 h-2.5 bg-white rounded-full"></span>
+                        <span class="w-2.5 h-2.5 bg-white rounded-full"></span>
+                        <span class="w-2.5 h-2.5 bg-white rounded-full"></span>
+                        <span class="w-2.5 h-2.5 bg-white rounded-full"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+                <!-- demo chat section aligned to right side -->
+        <section class="max-w-md p-6 bg-white rounded-lg shadow-md m-10 md:ml-auto">
+            <h3 class="text-lg font-semibold mb-4">Live Chat Demo — Restaurant</h3>
+
+            <!-- Customer (right) -->
+            <div class="chat chat-end mb-3">
+                <div class="chat-image avatar">
+                    <div class="w-8 rounded-full">
+                        <img src="https://i.pravatar.cc/40?img=5" alt="customer" />
+                    </div>
+                </div>
+                <div class="chat-bubble chat-bubble-info">
+                    I want to try something different today. What’s new?
+                </div>
+            </div>
+
+            <!-- Seller (left) -->
+            <div class="chat chat-start mb-3">
+                <div class="chat-image avatar">
+                    <div class="w-8 rounded-full">
+                        <img src="https://i.pravatar.cc/40?img=12" alt="seller" />
+                    </div>
+                </div>
+                <div class="chat-bubble chat-bubble-primary">
+                    We have grilled sandwiches and cold coffee today.
+                </div>
+            </div>
+
+            <!-- Customer follow-up (right) -->
+            <div class="chat chat-end mb-3">
+                <div class="chat-image avatar">
+                    <div class="w-8 rounded-full">
+                        <img src="https://i.pravatar.cc/40?img=5" alt="customer" />
+                    </div>
+                </div>
+                <div class="chat-bubble chat-bubble-info">
+                    Then give me a coffee.
+                </div>
+            </div>
+
+            <!-- Seller reply (left) -->
+            <div class="chat chat-start mb-3">
+                <div class="chat-image avatar">
+                    <div class="w-8 rounded-full">
+                        <img src="https://i.pravatar.cc/40?img=12" alt="seller" />
+                    </div>
+                </div>
+                <div class="chat-bubble chat-bubble-primary">
+                    Sure, would you like a sandwich with it?
+                </div>
+            </div>
+
+            <!-- Optional footer -->
+            <div class="text-xs text-center text-gray-500 mt-4">
+                Demo chat — replace avatars and text as needed.
+            </div>
+        </section>
+
+
+
+
+
+        <!-- caroisel section -->
+        <div>
+            <h1 class="text-center text-4xl font-bold p-3">Our Branch- </h1>
+        </div>
+        <section class="flex justify-center">
+            <div class="carousel w-9/12 rounded-lg items-center">
+                <div id="item1" class="carousel-item w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
+                        class="w-full" />
+                </div>
+                <div id="item2" class="carousel-item w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.webp"
+                        class="w-full" />
+                </div>
+                <div id="item3" class="carousel-item w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp"
+                        class="w-full" />
+                </div>
+                <div id="item4" class="carousel-item w-full">
+                    <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                        class="w-full" />
+                </div>
+            </div>
+        </section>
+
+        <div class="flex w-full justify-center gap-2 py-2">
+            <a href="#item1" class="btn btn-xs">1</a>
+            <a href="#item2" class="btn btn-xs">2</a>
+            <a href="#item3" class="btn btn-xs">3</a>
+            <a href="#item4" class="btn btn-xs">4</a>
+        </div>
+
+
+
+
+
+    </main>
+
+    <!-- footer section  -->
+    <footer class="footer sm:footer-horizontal bg-black text-white  text-base-content p-10 justify-around  ">
+        <nav>
+            <h6 class="footer-title">Services</h6>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Company</h6>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form class="space-y-8">
+            <h6 class="footer-title">Newsletter</h6>
+            <fieldset class="w-80">
+                <label>Enter your email address</label>
+                <div class="join mt-4">
+                    <input type="text" placeholder="username@site.com"
+                        class="input input-bordered join-item text-black" />
+                    <button class="btn btn-primary join-item">Subscribe</button>
+                </div>
+            </fieldset>
+            <p class="text-center ">© 2025 Restaurants. All Right Reserved. Designed by <span class="text-red-700">😉
+                    Md. Maruf Hasan</span> </p>
+        </form>
+
+
+    </footer>
+
+</body>
+
+</html>
